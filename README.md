@@ -44,6 +44,6 @@ Through this project, I improved my understanding of:
 
 ## 📬 Contact
 
-GitHub: https://github.com/tanuelara-cmyk
+GitHub: https://github.com/tanuelara-cmyk/Amazon-Clone
 
 LinkedIn: https://www.linkedin.com/in/tanu-yadav-a794253ab/
