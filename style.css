@@ -634,11 +634,3 @@ ul a{
         height: 160px;
     }
 }
-.nav-logo {
-    height: 50px;
-    width: 100px;
-}
-
-.nav-logo.border:hover {
-    border: 1.5px solid white;
-}
