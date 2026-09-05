@@ -246,3 +246,392 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
+@media (max-width: 1023px) {
+
+    /* Navbar */
+    .navbar {
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        padding: 5px 10px;
+        gap: 5px;
+    }
+
+    .nav-logo {
+        width: 90px;
+    }
+
+    .nav-address {
+        display: none;
+    }
+
+    .nav-search {
+        width: 45%;
+        min-width: 250px;
+        order: 2;
+    }
+
+    .nav-signin,
+    .nav-return {
+        font-size: 0.8rem;
+    }
+
+    .nav-cart i {
+        font-size: 26px;
+    }
+
+    /* Panel */
+    .panel {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding: 0 10px;
+    }
+
+    .panel-ops {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .panel-ops p {
+        margin: 10px;
+    }
+
+    /* Hero */
+    .hero-section {
+        height: 300px;
+        background-position: center;
+    }
+
+    .hero-message {
+        width: 90%;
+        height: auto;
+        min-height: 40px;
+        padding: 8px 10px;
+        text-align: center;
+    }
+
+    /* Shop */
+    .box {
+        width: 30%;
+        height: 360px;
+    }
+
+    .box-img {
+        height: 260px;
+    }
+
+    /* Footer */
+    .foot-panel2 {
+        height: auto;
+        min-height: 300px;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+    }
+
+    .foot-panel2 ul {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* Navbar */
+    .navbar {
+        height: auto;
+        min-height: 110px;
+        padding: 5px 8px;
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        height: 45px;
+        width: 85px;
+    }
+
+    .nav-logo .logo {
+        height: 45px;
+    }
+
+    .nav-address {
+        display: none;
+    }
+
+    .nav-search {
+        order: 3;
+        width: 100%;
+        height: 38px;
+        margin-top: 4px;
+    }
+
+    .search-input {
+        font-size: 0.9rem;
+    }
+
+    .search-icon {
+        width: 42px;
+        font-size: 1rem;
+    }
+
+    .nav-signin,
+    .nav-return {
+        padding: 5px;
+    }
+
+    .nav-signin p,
+    .nav-return p {
+        white-space: nowrap;
+    }
+
+    .nav-second {
+        font-size: 0.7rem;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+
+    .nav-cart i {
+        font-size: 24px;
+    }
+
+
+    /* Panel */
+    .panel {
+        height: 40px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        scrollbar-width: none;
+    }
+
+    .panel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .panel-all {
+        flex-shrink: 0;
+        margin-right: 5px;
+    }
+
+    .panel-ops {
+        width: auto;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .panel-ops p {
+        margin: 8px;
+        font-size: 0.75rem;
+    }
+
+
+    /* Hero */
+    .hero-section {
+        height: 220px;
+        background-position: center;
+    }
+
+    .hero-message {
+        width: 92%;
+        min-height: auto;
+        margin-bottom: 15px;
+        padding: 8px;
+        font-size: 0.7rem;
+        line-height: 1.3;
+    }
+
+
+    /* Shop */
+    .shop {
+        padding: 10px 5px;
+        gap: 10px;
+    }
+
+    .box {
+        width: calc(50% - 5px);
+        height: auto;
+        min-height: 280px;
+        padding: 12px 0 10px;
+        margin-top: 5px;
+    }
+
+    .box-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box-content h2 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .box-img {
+        height: 190px;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .box-content p {
+        font-size: 0.8rem;
+    }
+
+
+    /* Footer */
+    .foot-panel1 {
+        height: 45px;
+        margin-top: 15px;
+        font-size: 0.8rem;
+    }
+
+    .foot-panel2 {
+        height: auto;
+        padding: 15px 10px 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .foot-panel2 ul {
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .foot-panel2 ul p {
+        font-size: 0.85rem;
+    }
+
+    .foot-panel2 ul a {
+        font-size: 0.75rem;
+        margin-top: 8px;
+    }
+
+    .foot-panel3 {
+        height: 60px;
+    }
+
+    .foot-panel3 .logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    .foot-panel4 {
+        height: auto;
+        min-height: 80px;
+        padding-bottom: 10px;
+    }
+
+    .pages {
+        padding: 15px 5px 0;
+        line-height: 1.8;
+    }
+
+    .copyright {
+        padding: 5px;
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .navbar {
+        min-height: 105px;
+    }
+
+    .nav-logo {
+        width: 75px;
+        height: 40px;
+    }
+
+    .nav-logo .logo {
+        height: 40px;
+    }
+
+    .nav-signin,
+    .nav-return {
+        padding: 3px;
+    }
+
+    .nav-signin p span,
+    .nav-return p span {
+        font-size: 0.6rem;
+    }
+
+    .nav-second {
+        font-size: 0.65rem;
+    }
+
+    .nav-cart i {
+        font-size: 21px;
+    }
+
+    .nav-cart {
+        font-size: 0.65rem;
+    }
+
+
+    /* Hero */
+    .hero-section {
+        height: 180px;
+    }
+
+    .hero-message {
+        font-size: 0.65rem;
+        width: 94%;
+    }
+
+
+    /* Shop */
+    .box {
+        width: 100%;
+        min-height: 340px;
+    }
+
+    .box-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .box-img {
+        height: 250px;
+    }
+
+
+    /* Footer */
+    .foot-panel2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .foot-panel2 ul p {
+        font-size: 0.75rem;
+    }
+
+    .foot-panel2 ul a {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .nav-signin,
+    .nav-return {
+        display: none;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+    .nav-cart {
+        margin-left: auto;
+    }
+
+    .box-img {
+        height: 220px;
+    }
+
+    .hero-section {
+        height: 160px;
+    }
+
+}
